@@ -9,22 +9,25 @@
 </head>
 
 <body>
-<div class="main">
-  <header>
-    <nav>
-    <div class="main-nav">
-<h3 class="name"><a>Mjay Alegado</a>
+<header class="main-header">
+  <div id="main-header">
+  <h3 class="name"><a>Mjay Alegado</a>
 </h3>
-<ul class="main.ul">
-   <li><a href="#">Home</a></li>
-   <li><a href="#portfolio">Portfolio</a></li>
-   <li><a href="#contact">Contact</a></li>
+
+<ul class="main-nav">
+  <li>
+   <a href="#main-header">Home</a>
+ </li>
+<li>
+   <a href="#portfolio-section">Portfolio</a>
+ </li>
+<li>
+   <a href="#contact">Contact</a>
+ </li>
  </ul>
  </div>
-</nav>
-</header>
+ </header>
 
-<main>
 <div class="profile">
   <img src="images/responsive-layout-profile.png" alt="My Profile Image" class="profile-image">
   <p class="introduction"> What's up!, Im a Front-End Developer who's intrested in doing responsive layout desings and Css. I recently finished my first project in treehouse and I am excited to do more!</p>
@@ -35,7 +38,7 @@
   <div class="portfolio">
   <h4 class="portfolio-title"><a>PORTFOLIO</a>
   </h4>
-  
+
 <div class="row-container">
   <div class="card">
     <img src="images/portfolio-1.png" alt="Marketing Page Image">
@@ -78,26 +81,38 @@
 </div>
 </main>
 
-<div class="Contact-Information" id="Contact">
-   <div class="contact">CONTACT</div>
-   <p>If your interested in talking about more information with this project, check my contacts and I would love to talk about it!</p>
-   <p>1-(234)-567-8910</p>
-   <p>EmailMe.emailwebsite.com</p>
+<div id="contact">
+   <h3 class="contact-title"><a>CONTACT</a>
+   </h3>
+   <p class="contact">If your interested in talking about more information with this project, check my contacts and I would love to talk about it!</p>
+   <p class="phone">1-(234)-567-8910</p>
+   <p class="e-mail">EmailMe.emailwebsite.com</p>
 </div>
 
-<footer>
-<nav class="footer-nav">
-<h3>Mjay Alegado</h3>
-<div class="nav">
-<ul class="footer.ul">
-   <li><a href="#">Home</a></li>
-   <li><a href="#portfolio">Portfolio</a></li>
-   <li><a href="#contact">Contact</a></li>
-  </ul>
-  </div>
-  <a class="top" href="#top">BACK TO TOP</a>
-</nav>
-</footer>
+<footer id="footer">
+<div class="line-seperator">
 </div>
+<h3 class="studentname-footer"><a>Mjay Alegado</a>
+</h3>
+<ul>
+  <li class="back-to-top">
+  <a href="#main-header" title="back-to-top">BACK TO TOP</a>
+</li>
+
+<li style="list-style: none; display inline">
+  <ul class="footer-nav">
+  <li>
+    <a href="#main-header">Home</a>
+ </li>
+  <li>
+    <a href="#portfolio-section">Portfolio</a>
+ </li>
+  <li>
+    <a href="#contact">Contact</a>
+  </li>
+</ul>
+</li>
+</ul>
+</footer>
 </body>
 </html>
