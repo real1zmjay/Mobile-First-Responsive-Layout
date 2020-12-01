@@ -38,3 +38,22 @@ body {
 .main-ul a:hover{
   color: black;
 }
+
+h3{
+  text-align: center;
+}
+
+p.introduction {
+  text-align: justify;
+  padding: 2%;
+  color: black;
+}
+
+.portfolio {
+  background: #fff;
+  display: inline-block;
+}
+
+.portfolio-title {
+  text-align: center;
+}
