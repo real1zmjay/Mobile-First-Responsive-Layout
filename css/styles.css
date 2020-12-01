@@ -8,3 +8,33 @@ body {
   color: black;
   background-color: #999966;
 }
+
+.name a{
+  font-size: 1.25em;
+  margin: 0;
+  font-size: 25px;
+  text-align: center;
+}
+
+.main-ul li{
+  background: #fff
+  margin: 5px;
+  list-style: none;
+  max-width: 90%;
+}
+
+.name a,.main-ul{
+  display: block;
+  text-align: center;
+  padding: 10px 1px;
+  text-decoration: none;
+}
+
+.main-ul a{
+  color: black;
+  text-transform: uppercase;
+}
+
+.main-ul a:hover{
+  color: black;
+}
