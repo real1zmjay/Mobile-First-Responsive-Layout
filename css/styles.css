@@ -17,7 +17,7 @@ body {
 }
 
 .main-ul li{
-  background: #fff
+  background: #fff;
   margin: 5px;
   list-style: none;
   max-width: 90%;
@@ -30,12 +30,12 @@ body {
   text-decoration: none;
 }
 
-.main-ul a{
+.main-nav a{
   color: black;
   text-transform: uppercase;
 }
 
-.main-ul a:hover{
+.main-nav a:hover{
   color: black;
 }
 
@@ -73,19 +73,19 @@ p.e-mail {
 
 .student-picture {
   display:block;
-  max width: 70%;
+  max width: 60%;
   margin-left: auto;
   margin-right: auto;
 }
 
 img {
   max width: 100%;
-  display: inline-block;
+  display: block;
   margin-left: -20px;
 }
 
 li {
-  list style:auto;
+  list style: none;
 }
 
 .line-seperator {
@@ -124,7 +124,7 @@ a:active {
 
 @media (min-width: 768px) {
    body {
-   padding-top: 10px;
+   padding-top: 5px;
 }
 
 .main-nav {
@@ -133,8 +133,8 @@ a:active {
 
 .main-nav li {
   display: inline-block;
-  margin-left: 2%;
-  margin-right: 1%;
+  margin-right: : 1%;
+  margin-left: : 2%;
   background: none;
 }
 
@@ -148,17 +148,17 @@ a:active {
 
 p.introduction {
   float: left;
-  width: 48%;
+  width: 47.5%;
 }
 
 ul.products li {
-  width: 50%
+  width: 49%
   display:inline-block;
   vertical-align: top;
 }
 
 ul.products {
-  margin-left: 1%
+  margin-left: 1%;
   margin-right: auto;
 }
 
@@ -174,7 +174,7 @@ li {
 }
 
 .back-to-top {
-  display: inline;
+  display: none;
 }
 
 @media (min-width: 1024px) {
@@ -182,8 +182,8 @@ li {
 }
 .name {
   float: left;
-  margin: 1%;
-  padding: 2%;
+  margin: 0 1%;
+  padding: 0 2%;
 }
 
 .main-nav {
@@ -197,18 +197,18 @@ li {
 }
 
 .student-picture {
-  float: left;
-  padding: 4em;
+  float: right;
+  padding: 3em;
 }
 
 p.introduction {
   float: left;
-  font-size: 20px;
+  font-size: 17px;
   text-align: justify;
 }
 
 ul.products li {
-  width: 35%;
+  width: 33%;
   display: inline-block;
   vertical-align: top;
 }
@@ -216,4 +216,8 @@ ul.products li {
 ul.products {
   marin-left: 1%;
   margin-right: auto;
+}
+
+p {
+  text-align: justify;
 }
