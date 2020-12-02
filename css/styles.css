@@ -126,3 +126,94 @@ a:active {
    body {
    padding-top: 10px;
 }
+
+.main-nav {
+  text-align: center;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-left: 2%;
+  margin-right: 1%;
+  background: none;
+}
+
+.student-picture {
+  float: right;
+  display: inline-block;
+  max width: 35%;
+  margin-left: 10%;
+  margin-right: 6%;
+}
+
+p.introduction {
+  float: left;
+  width: 48%;
+}
+
+ul.products li {
+  width: 50%
+  display:inline-block;
+  vertical-align: top;
+}
+
+ul.products {
+  margin-left: 1%
+  margin-right: auto;
+}
+
+ul.footer-nav {
+  display: inline-block;
+  list-style-type: none;
+  float: right;
+}
+
+li {
+  display: inline;
+  padding-right: 20px;
+}
+
+.back-to-top {
+  display: inline;
+}
+
+@media (min-width: 1024px) {
+
+}
+.name {
+  float: left;
+  margin: 1%;
+  padding: 2%;
+}
+
+.main-nav {
+  display: inline-block;
+  float: right;
+  min-width: 350%;
+}
+
+.profile {
+  margin-top: 100px;
+}
+
+.student-picture {
+  float: left;
+  padding: 4em;
+}
+
+p.introduction {
+  float: left;
+  font-size: 20px;
+  text-align: justify;
+}
+
+ul.products li {
+  width: 35%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+ul.products {
+  marin-left: 1%;
+  margin-right: auto;
+}
