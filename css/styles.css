@@ -16,21 +16,21 @@ body {
   text-align: center;
 }
 
-.main-ul li{
+.main-nav li{
   background: #fff;
   margin: 5px;
   list-style: none;
   max-width: 90%;
 }
 
-.name a,.main-ul{
+.name a,.main-nav {
   display: block;
   text-align: center;
   padding: 10px 1px;
   text-decoration: none;
 }
 
-.main-nav a{
+.main-nav a {
   color: black;
   text-transform: uppercase;
 }
@@ -56,6 +56,10 @@ p.introduction {
 
 .portfolio-title {
   text-align: center;
+}
+
+.p {
+  text-align: justify;
 }
 
 p.contact {
@@ -95,7 +99,7 @@ li {
 
 .studentname-footer {
   display: inline-block;
-  float:right;
+  float: right;
 }
 
 .back-to-top {
@@ -105,17 +109,20 @@ li {
 }
 
 .footer-nav {
-  display: contents;
+  display: none;
 }
 
 a:link {
   text decoration: none;
-  font-size: 20px;
+  font-size: 18px;
+}
+
+a:link {
   color: black;
 }
 
 a:visited {
-   color: black;
+   color: white;
 }
 
 a:active {
@@ -152,8 +159,8 @@ p.introduction {
 }
 
 ul.products li {
-  width: 49%
-  display:inline-block;
+  width: 49%;
+  display: inline-block;
   vertical-align: top;
 }
 
@@ -178,12 +185,11 @@ li {
 }
 
 @media (min-width: 1024px) {
-
 }
 .name {
   float: left;
   margin: 0 1%;
-  padding: 0 2%;
+  padding: 0 2px;
 }
 
 .main-nav {
@@ -198,7 +204,7 @@ li {
 
 .student-picture {
   float: right;
-  padding: 3em;
+  padding: 2em;
 }
 
 p.introduction {
@@ -214,7 +220,7 @@ ul.products li {
 }
 
 ul.products {
-  marin-left: 1%;
+  margin-left: 1%;
   margin-right: auto;
 }
 
