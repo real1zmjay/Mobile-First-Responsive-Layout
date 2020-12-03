@@ -129,20 +129,9 @@ a:active {
 	color: blue;
 }
 
-.container {
-  padding-left: 1em;
-  padding-right: 1em;
-}
-
 @media (min-width: 768px) {
-  .container {
-    width: 70%;
-    max-width: 1000px;
-    margin: 0 auto;
-  }
-}
-	body {
-		padding-top: 5px;
+	    body {
+		     padding-top: 5px;
 }
 	.main-nav {
 		text-align: center;
