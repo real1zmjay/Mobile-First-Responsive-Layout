@@ -129,6 +129,11 @@ a:active {
 	color: blue;
 }
 
+.container {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
 @media (min-width: 768px) {
   .container {
     width: 70%;
