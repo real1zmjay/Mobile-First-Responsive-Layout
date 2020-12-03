@@ -75,7 +75,7 @@ p.e-mail {
  text-align: center;
 }
 
-.student-picture {
+.profile-image {
  display: block;
  max-width: 60%;
  margin-left: auto;
@@ -148,14 +148,14 @@ a:active {
 		text-align: center;
 
 }
-	.main-nav li {
+ .main-nav li {
 		display: inline-block;
 		margin-right: 1%;
 		margin-left: 2%;
 		background: none;
 
 }
-	.student-picture {
+ .profile-image {
 		float: right;
 		display: inline-block;
 		max-width: 35%;
@@ -212,7 +212,7 @@ li {
 	margin-top: 100px;
 }
 
-.student-picture {
+.profile-image {
 	float: right;
   padding: 2em;
 }
