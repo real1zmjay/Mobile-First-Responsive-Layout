@@ -1,10 +1,10 @@
-{
+* {
 box-sizing: border-box;
 }
 
 body {
  font-family: '7CRoboto', serif;
- line-height: 1.5;
+ line-height: 1.6;
  color: black;
  background-color: #999966;
 }
@@ -130,6 +130,12 @@ a:active {
 }
 
 @media (min-width: 768px) {
+  .container {
+    width: 70%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
 	body {
 		padding-top: 5px;
 }
